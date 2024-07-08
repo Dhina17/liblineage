@@ -11,7 +11,7 @@ import requests
 from liblineage.constants.infra import GITHUB_ORG
 from liblineage.hudson.period import Period
 
-LINEAGE_BUILD_TARGETS_FILE = f"https://raw.githubusercontent.com/{GITHUB_ORG}/hudson/main/lineage-build-targets"
+LINEAGE_BUILD_TARGETS_FILE = "https://git.libremobileos.com/infrastructure/builder/-/raw/main/lmodroid-build-targets"
 
 class BuildTarget:
 	def __init__(

@@ -39,7 +39,8 @@ class BuildFile:
 		return cls(
 			json["filename"],
 			json["filepath"],
-			json["sha1"],
+			#json["sha1"]
+			"",
 			json["sha256"],
 			json["size"],
 			json["url"],

@@ -7,4 +7,4 @@
 
 from liblineage.constants.infra import DOMAIN
 
-BASE_API_URL = f"https://download.{DOMAIN}/api"
+BASE_API_URL = f"https://get.{DOMAIN}/api"
