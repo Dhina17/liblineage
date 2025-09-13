@@ -20,9 +20,10 @@ for key, value in {
 	"19.0": AndroidVersion.S,
 	"19.1": AndroidVersion.S_V2,
 	"4.2": AndroidVersion.TIRAMISU,
-	"4.2": AndroidVersion.TIRAMISU,
 	"5.0": AndroidVersion.UPSIDE_DOWN_CAKE,
-	"5.0": AndroidVersion.UPSIDE_DOWN_CAKE,
+	"6.0": AndroidVersion.VANILLA_ICE_CREAM,
+	"6.1": AndroidVersion.VANILLA_ICE_CREAM,
+	"6.2": AndroidVersion.VANILLA_ICE_CREAM,
 }.items():
 	LINEAGEOS_TO_ANDROID_VERSION[key] = value
 	ANDROID_TO_LINEAGEOS_VERSION[value] = key
